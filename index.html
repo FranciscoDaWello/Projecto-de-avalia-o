@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabela</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/stilo.css">
+		<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body >
+<!-- div inicial, constam todos os elementos !-->
+<div style="height: auto;width: auto;">
+	
+	<!-- Barra cinza left !-->
+		<div class="nav">
+		
+		</div>
+
+<!-- div aonde constam a tabela e seus elementos !-->
+	<div class="principal" >
+			<div>
+				<h1 id="h1" >Editar [Designação da Escola]</h1>
+
+				<!-- Incio da tabela !-->
+				<div class="container">
+					<table class="table">
+						<!-- inicio das colunas com 4 elementos !-->
+						<thead>
+							<tr>
+            					<th scope="col" style="width: 40%;">Designação</th>
+            					<th scope="col" style="width: 20%;">Funcionais</th>
+            					<th scope="col" style="width: 20%;">Não Funcionais</th>
+            					<th scope="col" style="width: 20%;">Númerico total</th>
+        					</tr>
+        				</thead>
+						<!-- Alinhas feitas... !-->
+        				<tbody>
+       						<tr>
+
+       							<td>Salas de Aula Teóricas</td>
+       							<td >
+									<input type="number" id="funcionais" class="form-control text-center" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;" value="0" disabled>
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais" class="form-control text-center"  style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;" value="0" disabled>
+								</td>
+            					<td>
+									<input type="number" id="total" class="form-control text-center" value="1"  style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+								<tr>
+
+       							<td>Salas de informática</td>
+       							<td >
+									<input type="number" id="funcionais2" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais2" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total2" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Automação</td>
+       							<td >
+									<input type="number" id="funcionais3" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais3" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total3" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Biologia</td>
+       							<td >
+									<input type="number" id="funcionais4" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais4" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total4" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de CAD</td>
+       							<td >
+									<input type="number" id="funcionais5" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais5" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total5" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de CNC</td>
+       							<td >
+									<input type="number" id="funcionais6" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais6" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total6" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Electrónica</td>
+       							<td >
+									<input type="number" id="funcionais7" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais7" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total7" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Energias Renovaveis</td>
+       							<td >
+									<input type="number" id="funcionais8" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais8" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total8" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Física</td>
+       							<td >
+									<input type="number" id="funcionais9" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais9" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total9" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Frio e Climatização</td>
+       							<td >
+									<input type="number" id="funcionais10" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais10" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total10" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Instalações Eléctrica</td>
+       							<td >
+									<input type="number" id="funcionais11" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais11" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total11" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Maquinas Eléctricas</td>
+       							<td >
+									<input type="number" id="funcionais12" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais12" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total12" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Metalomecânica</td>
+       							<td >
+									<input type="number" id="funcionais13" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais13" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total13" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Quimica</td>
+       							<td >
+									<input type="number" id="funcionais14" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais14" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total14" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Laboratório de Telecomunicações</td>
+       							<td >
+									<input type="number" id="funcionais15" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais15" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total15" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Oficinas de Construções Mecânicas</td>
+       							<td >
+									<input type="number" id="funcionais16" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais16" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total16" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Oficinas de Máquinas e Motores</td>
+       							<td >
+									<input type="number" id="funcionais17" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais17" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total17" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							<tr>
+
+       							<td>Oficinas de Soldadura</td>
+       							<td >
+									<input type="number" id="funcionais18" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+        
+        						<td>
+									<input type="number" id="nfuncionais18" class="form-control text-center" value="1" min="0" style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+            					<td>
+									<input type="number" id="total18" class="form-control text-center" value="0" disabled style="width: 50%;border-radius: 0pt;color: #000;font-weight: bold;">
+								</td>
+							</tr>
+							
+						</tbody>
+					</table>
+					<!-- Botão para a actualização dos dados !-->
+					<button type="button" class="btn btn-primary" onclick="validateAndUpdate()">Actualizar</button>
+				</div>
+			</div>
+		
+	</div>
+
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+/*Cor para o corpo do site*/
+body{
+	background-color: #f0f0f0;
+}
+/*formatação da classe nav*/
+.nav{
+	height: 1170pt;
+	width: 210pt;
+	background:#b1b5bf;
+	overflow: hidden;
+
+	}
+/*Formatação da div na qual consta a tabela*/
+.principal{
+	position: relative;
+	float: right; 
+	top: -1170pt;
+	width: 800pt;
+	height: auto;
+	border: 0pt solid #000
+	}
+/*Formatão do titulo*/
+#h1{
+	font-family: arial;
+	font-size: 14pt;
+	color: #000;
+	padding-left: 60pt;
+	font-weight: bold;
+	}
+/*Formatação da class container*/
+.container {
+            padding-top: 20pt;
+            width: 87%
+        }
+/*Formatação da tag table*/
+table {
+    background-color: #fff;
+    border-radius: 0pt;
+    overflow: hidden;
+    }
+/*Formatação das tags th e td*/
+th, td {
+    padding: 15pt;
+    text-align: left;
+    vertical-align: middle !important;
+    border: none !important;
+    border-bottom: 1pt solid #dee2e6 !important;
+    }
+/*Formatação unica da tag td*/
+td{
+	color: #000;
+	font-weight: bold;
+	}
+/*Formatação unica da tag th*/
+th {
+    background-color: #adb3c4;
+    color: #000;
+    font-weight: bold;
+   
+    }
+/*Formatação unica da tag tbody para poder fazer uma mistura de cor no corpo da tabela*/
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+/*Efeito hover*/
+tbody tr:hover {
+    background-color: #e2e6ea;
+    }
+/*Formatação do botão*/
+button{
+	position: relative;
+	float: right;
+	width: 130pt
+
+}
